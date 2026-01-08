@@ -239,3 +239,40 @@
     line-height: 20px;
     color: #469165;
 }
+
+
+
+
+
+
+/* styling think section  */
+
+#think .think-container {
+    width: 1360px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    margin: 0 auto;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.think-container .think-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.think-container .think-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.think-container .bottom-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-top: 16px;
+}
