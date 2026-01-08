@@ -88,6 +88,11 @@
     margin-bottom: 32px;
     text-align: center;
 }
+#banner .banner-container .banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #banner .banner-container .vault-btn {
     font-size: 16px;
     font-weight: 600;
@@ -115,3 +120,8 @@
     align-items: center;
     gap: 10px;
 }
+
+
+
+
+/* styling note section */
