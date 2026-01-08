@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .font-inter {
     font-family: "Inter",sans-serif;
@@ -68,7 +69,11 @@
     color: #30B868;
     background-color: #FFFFFF;
     margin-bottom: 16px;
-    border-radius: 12px;
+    border-radius: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
 }
 #banner .banner-container .banner-heading {
     font-size: 72px;
@@ -92,13 +97,21 @@
     border: 1px solid #30B868;
     border-radius: 4px;
     margin-right: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 #banner .banner-container .works-btn {
     font-size: 16px;
     font-weight: 600;
-    padding: 16.5px 16px;
+    padding: 16px 16px;
     background-color: transparent;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
     border-radius: 4px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
