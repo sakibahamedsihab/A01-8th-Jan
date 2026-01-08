@@ -125,3 +125,69 @@
 
 
 /* styling note section */
+
+#note .note-info {
+    max-width: 1360px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#note .note-card-container {
+    max-width: 1360px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 24px;
+}
+
+#note .note-container .note-info .note-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 60px;
+    margin-bottom: 16px;
+}
+#note .note-container .note-info .note-text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.note-card {
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    max-width: 322px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 8px 0 #0000001a;
+    gap: 16px;
+}
+.card-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.note-card .card-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+}
+.note-card .card-text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
