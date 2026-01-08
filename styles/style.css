@@ -191,3 +191,51 @@
     line-height: 20px;
     color: #627382;
 }
+
+
+
+
+
+/* styling brain section */
+
+#brain{
+    background-color: white;
+    display: flex;
+}
+.brain-container {
+    max-width: 1360px;
+    margin: 120px auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.brain-container .brain-content .brain-heading {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.brain-container .brain-content .brain-text {
+     font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.brain-container .brain-complete {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #001931;
+}
+.brain-container .brain-content .the-solution-text {
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color: #469165;
+}
