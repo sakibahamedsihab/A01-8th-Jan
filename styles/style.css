@@ -9,6 +9,9 @@
 .color-green {
     color: #30B868;
 }
+.pointer {
+    cursor: pointer;
+}
 
 /* styling navbar */
 
@@ -19,7 +22,9 @@
     font-weight: 500;
     color: #000000;
 }
-
+.nav-container .logo {
+    height: 60px;
+}
 .nav-container, .nav-container .menu {
     display: flex;
     justify-content: space-between;
@@ -40,7 +45,11 @@
     border: none;
     border-radius: 4px;
 } 
-
+.nav-btn:hover {
+    color: #469165;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(6, 1, 17, 0.305);
+}
 
 /* styling banner */
 /* 
@@ -53,6 +62,7 @@
  #banner {
     background-image: url(../assets/hero-bg.png);
     overflow: hidden;
+    background-repeat: no-repeat;
  }
 .banner-container {
     max-width: 1360px;
@@ -70,6 +80,7 @@
     background-color: #FFFFFF;
     margin-bottom: 16px;
     border-radius: 1000px;
+    border: none;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +88,7 @@
 }
 #banner .banner-container .banner-heading {
     font-size: 72px;
-    font-weight: 800;
+    font-weight: 900;
     color: #FFFFFF;
     margin-bottom: 16px;
 }
@@ -99,7 +110,7 @@
     color: #FFFFFF;
     background-color: #469165;
     padding: 16px 16px;
-    border: 1px solid #30B868;
+    border: 1px solid #469165;
     border-radius: 4px;
     margin-right: 16px;
     display: inline-flex;
@@ -107,6 +118,13 @@
     align-items: center;
     gap: 10px;
 }
+#banner .banner-container .vault-btn:hover {
+    color: #FFFFFF;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 0px rgba(6, 1, 17, 0.305);
+    border: 1px solid white;
+}
+
 #banner .banner-container .works-btn {
     font-size: 16px;
     font-weight: 600;
@@ -119,6 +137,10 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+#banner .banner-container .works-btn:hover {
+    border: 1px solid #469165;
+    background-color: #469165;
 }
 
 
